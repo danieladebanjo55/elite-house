@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 500px;
+  padding: 40px 32px;
+  border-radius: 8px;
+  background-color: transparent;
+  margin: 3px;
+  cursor: pointer;
+  //   border: 2px solid #fff;
+  box-shadow: 1px 1px 2px 1px #fff;
+  margin: 7px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #fff;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
