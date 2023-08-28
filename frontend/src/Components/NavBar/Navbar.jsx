@@ -1,5 +1,5 @@
 import React from "react";
-import "./NavBar.scss";
+import "./Navbar.scss";
 import { useRef } from "react";
 import Logo from "../assets/elite-logo.png";
 
