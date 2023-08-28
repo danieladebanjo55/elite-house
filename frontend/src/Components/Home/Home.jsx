@@ -3,6 +3,8 @@ import NavBar from "../NavBar/Navbar";
 import "./Home.scss";
 import Benefit from "./Benefits/Benefit";
 import Packages from "./Packages/Packages";
+import Item from "./ItemList/Item";
+import Footer from "./Footer/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +26,8 @@ export default function Home() {
       </div>
       <Benefit />
       <Packages />
+      <Item />
+      <Footer />
     </>
   );
 }

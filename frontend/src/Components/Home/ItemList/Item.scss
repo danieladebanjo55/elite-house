@@ -1,0 +1,22 @@
+.main__list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
+  padding: 20px 25px;
+  padding-top: 0 !important;
+  height: 45vh;
+
+  .list1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+    gap: 0.5rem;
+    .list__item {
+      color: #000;
+      text-align: left;
+    }
+  }
+}
