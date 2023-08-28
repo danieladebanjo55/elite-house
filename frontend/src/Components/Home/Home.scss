@@ -11,6 +11,15 @@
   background-size: cover;
   background-repeat: no-repeat;
 
+  .main__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: #0f0e0e8d;
+    width: 100vw;
+    height: calc(100vh - 80px);
+  }
+
   .main__content {
     position: relative;
     display: flex;

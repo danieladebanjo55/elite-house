@@ -9,6 +9,7 @@ export default function Home() {
     <>
       <NavBar />
       <div className="main__container">
+        <div className="main__overlay"></div>
         <div className="main__content">
           <div className="left">
             <h2 className="heading">Elite House</h2>
