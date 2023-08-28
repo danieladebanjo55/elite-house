@@ -7,7 +7,7 @@ export default function Card({ image, title, subtitle }) {
       <div className="card">
         <img src={image} />
         <h2>{title}</h2>
-        <p>{subtitle}</p>
+        <p className="card__text">{subtitle}</p>
       </div>
     </>
   );

@@ -20,9 +20,15 @@ h2 {
   color: #fff;
 }
 
-p {
+.card__text {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 28px;
+  font-weight: 700;
   color: #fff;
   text-align: center;
+}
+
+img {
+  width: 70px;
+  height: auto;
 }

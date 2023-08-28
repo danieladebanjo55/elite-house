@@ -32,8 +32,8 @@ const Subscription = () => {
     <div className="main__sub">
       <SubscriptionPackageCard
         title="普通会员"
-        Fprice={package1.Fprice}
-        Rprice={package1.Rprice}
+        // Fprice={package1.Fprice}
+        // Rprice={package1.Rprice}
         onSelect={() => {
           // Handle package selection for package 1
           console.log(`Selected ${package1.title}`);
@@ -41,8 +41,8 @@ const Subscription = () => {
       />
       <SubscriptionPackageCard
         title="公司会员"
-        Fprice={package1.Fprice}
-        Rprice={package1.Rprice}
+        // Fprice={package1.Fprice}
+        // Rprice={package1.Rprice}
         onSelect={() => {
           // Handle package selection for package 1
           console.log(`Selected ${package1.title}`);

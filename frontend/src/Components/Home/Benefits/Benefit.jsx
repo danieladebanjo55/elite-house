@@ -15,12 +15,16 @@ export default function Benefit() {
           </p>
         </div>
         <div className="lower">
-          <Card image={Image} title="Name" subtitle="Golden Ticket" />
-          <Card image={Image} title="Name" subtitle="Golden Ticket" />
-          <Card image={Image} title="Name" subtitle="Golden Ticket" />
-          <Card image={Image} title="Name" subtitle="Golden Ticket" />
-          <Card image={Image} title="Name" subtitle="Golden Ticket" />
-          <Card image={Image} title="Name" subtitle="Golden Ticket" />
+          <Card image={Image} subtitle="代办新加坡银行户口及服务" />
+          <Card
+            image={Image}
+            subtitle="社交电商服务
+"
+          />
+          <Card image={Image} subtitle="Mastercard 扣帐卡" />
+          <Card image={Image} subtitle="国外资产配置" />
+          <Card image={Image} subtitle="AI世界文旅" />
+          <Card image={Image} subtitle="Web3区块链系统" />
         </div>
       </div>
     </>
